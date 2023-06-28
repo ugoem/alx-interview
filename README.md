@@ -1,4 +1,4 @@
-# alx-interview
+# ALX Interview
 
 ![image](https://github.com/ugoem/alx-interview/assets/24642339/bb479f4c-c138-425c-8451-0c16fc62d9e6)
 
