@@ -2,7 +2,7 @@
 
 # Requirements
 ## General
-_ Allowed editors: ``vi, vim, emacs``
+- Allowed editors: ``vi, vim, emacs``
 _ All your files will be interpreted/compiled on Ubuntu 14.04 LTS using python3 (version 3.4.3)
 _ All your files should end with a new line
 _ The first line of all your files should be exactly ``#!/usr/bin/python3``
