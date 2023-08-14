@@ -1,4 +1,5 @@
 # Rotate 2D Matrix
+![image](https://github.com/ugoem/alx-interview/assets/24642339/983ccab2-3cce-4aab-bfab-5cc73f27e170)
 
 # Requirements
 ## General
