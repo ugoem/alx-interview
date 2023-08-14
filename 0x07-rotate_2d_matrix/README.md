@@ -20,6 +20,7 @@ Given an n x n 2D matrix, rotate it 90 degrees clockwise.
 
 expected output
 
+```
 #!/usr/bin/python3
 """
 Test 0x07 - Rotate 2D Matrix
@@ -33,13 +34,16 @@ if __name__ == "__main__":
 
     rotate_2d_matrix(matrix)
     print(matrix)
+```
+```
 ugoem@ubuntu-trusty-64$ ./main.py
 [[7, 4, 1],
 [8, 5, 2],
 [9, 6, 3]]
-Explanantion
+```
+Explanation
 given a matrix(old_matrix), the goal is to convert it to another matrix(new_matrix)
-
+```
     Old_Matrix
  _              _                       _              _
 | a10, a11, a12  |                     | a30, a20, a10  |
@@ -48,6 +52,7 @@ given a matrix(old_matrix), the goal is to convert it to another matrix(new_matr
 |                |                     |                |
 | a30, a31, a32  |                     | a32, a22, a12  |
 |_              _|                     |_              _|
+```
 Now if you look closely the columns are reversed for all ith indexes in each rows and also the size of the matrix is maintained. so get the indexes of the rows in the matrix(outer iteration/loop) now iterate the matrix(inner loop).
 
 On your inner loop, form a new list(row) containing the ith element of all row visited then append this to the new_matrix object.
